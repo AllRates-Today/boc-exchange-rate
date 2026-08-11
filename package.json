@@ -1,6 +1,6 @@
 {
   "name": "boc-exchange-rate",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Official Bank of Canada (Canada) daily exchange rates — 24 currencies vs CAD, history since 2017. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "boc",
