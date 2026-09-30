@@ -85,10 +85,10 @@ const pair = await getRate('USD', 'CAD', { apiKey: 'art_live_...' });
 {
   bank: 'boc',
   name: 'Bank of Canada',
-  rate_date: '2026-09-08',   // Bank of Canada's own publication date
+  rate_date: '2026-09-25',   // Bank of Canada's own publication date
   source: 'USD',
   target: 'CAD',
-  rate: 1.3784,
+  rate: 1.4145,
   rate_type: 'indicative',
   derived: false,
   method: 'published',
@@ -113,9 +113,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'boc',
   name: 'Bank of Canada',
-  rate_date: '2026-09-08',
+  rate_date: '2026-09-25',
   rates: [
-    { "base": "USD", "quote": "CAD", "type": "indicative", "value": 1.3784 },
+    { "base": "USD", "quote": "CAD", "type": "indicative", "value": 1.4145 },
     // … the rest of the published table (24 currencies vs CAD)
   ],
   disclaimer: '…'
@@ -155,7 +155,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'boc-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CAD', from: '2026-01-01', to: '2026-09-08' },
+  { source: 'USD', target: 'CAD', from: '2026-01-01', to: '2026-09-25' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -168,11 +168,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CAD',
   from: '2026-01-01',
-  to: '2026-09-08',
+  to: '2026-09-25',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-09-08', rate: 1.3784, rate_type: 'indicative', derived: false, method: 'published' },
+    { date: '2026-09-25', rate: 1.4145, rate_type: 'indicative', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
