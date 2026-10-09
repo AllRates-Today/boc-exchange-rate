@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/boc-exchange-rate.svg)](https://github.com/AllRates-Today/boc-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/boc-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![USD/CAD today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fboc%3Fsource%3DUSD%26target%3DCAD&query=%24.rate&label=USD%2FCAD%20published%20by%20Bank%20of%20Canada&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/boc/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fboc%3Fsource%3DUSD%26target%3DCAD&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/boc/)
 
 **Official Bank of Canada (Canada) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Bank of Canada itself prints, every business day.**
 
@@ -32,6 +34,43 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Bank of Canada table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Bank of Canada — 24 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | CAD | indicative | 0.9902 |
+| BRL | CAD | indicative | 0.284 |
+| CHF | CAD | indicative | 1.7101 |
+| CNY | CAD | indicative | 0.2125 |
+| EUR | CAD | indicative | 1.595 |
+| GBP | CAD | indicative | 1.8822 |
+| HKD | CAD | indicative | 0.1814 |
+| IDR | CAD | indicative | 0.00008 |
+| INR | CAD | indicative | 0.01471 |
+| JPY | CAD | indicative | 0.00901 |
+| KRW | CAD | indicative | 0.001061 |
+| MXN | CAD | indicative | 0.07867 |
+| MYR | CAD | indicative | 0.348 |
+| NOK | CAD | indicative | 0.1488 |
+| NZD | CAD | indicative | 0.7973 |
+| PEN | CAD | indicative | 0.4137 |
+| PLN | CAD | indicative | 0.3643 |
+| SEK | CAD | indicative | 0.1426 |
+| SGD | CAD | indicative | 1.1114 |
+| THB | CAD | indicative | 0.0423 |
+| TRY | CAD | indicative | 0.0289 |
+| TWD | CAD | indicative | 0.04456 |
+| USD | CAD | indicative | 1.424 |
+| ZAR | CAD | indicative | 0.08566 |
+
+Source: [Official rates published by BOC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/boc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
