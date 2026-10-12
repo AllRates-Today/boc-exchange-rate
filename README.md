@@ -40,7 +40,7 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Bank of Canada table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Bank of Canada — 24 rates. Updated 2026-10-09.
+Published **2026-10-09** by Bank of Canada — 24 rates. Updated 2026-10-12.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
@@ -124,10 +124,10 @@ const pair = await getRate('USD', 'CAD', { apiKey: 'art_live_...' });
 {
   bank: 'boc',
   name: 'Bank of Canada',
-  rate_date: '2026-10-08',   // Bank of Canada's own publication date
+  rate_date: '2026-10-09',   // Bank of Canada's own publication date
   source: 'USD',
   target: 'CAD',
-  rate: 1.424,
+  rate: 1.4271,
   rate_type: 'indicative',
   derived: false,
   method: 'published',
@@ -152,9 +152,9 @@ console.log(table.rate_date, table.rates.length);
 {
   bank: 'boc',
   name: 'Bank of Canada',
-  rate_date: '2026-10-08',
+  rate_date: '2026-10-09',
   rates: [
-    { "base": "USD", "quote": "CAD", "type": "indicative", "value": 1.424 },
+    { "base": "USD", "quote": "CAD", "type": "indicative", "value": 1.4271 },
     // … the rest of the published table (24 currencies vs CAD)
   ],
   disclaimer: '…'
@@ -194,7 +194,7 @@ Paid plans. One resolved rate per publication date — ready for charting, reval
 import { getHistory } from 'boc-exchange-rate';
 
 const series = await getHistory(
-  { source: 'USD', target: 'CAD', from: '2026-01-01', to: '2026-10-08' },
+  { source: 'USD', target: 'CAD', from: '2026-01-01', to: '2026-10-09' },
   { apiKey: 'art_live_...' }
 );
 ```
@@ -207,11 +207,11 @@ const series = await getHistory(
   source: 'USD',
   target: 'CAD',
   from: '2026-01-01',
-  to: '2026-10-08',
+  to: '2026-10-09',
   count: 152,
   rates: [
     // one entry per publication date
-    { date: '2026-10-08', rate: 1.424, rate_type: 'indicative', derived: false, method: 'published' },
+    { date: '2026-10-09', rate: 1.4271, rate_type: 'indicative', derived: false, method: 'published' },
     // …
   ],
   disclaimer: '…'
@@ -261,6 +261,7 @@ curl "https://allratestoday.com/api/v1/central-bank/boc/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('boc')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate boc ...` command
+- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
