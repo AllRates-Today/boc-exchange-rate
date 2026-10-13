@@ -42,34 +42,34 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-09** by Bank of Canada — 24 rates. Updated 2026-10-12.
+Published **2026-10-13** by Bank of Canada — 24 rates. Updated 2026-10-13.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9958 |
-| BRL | CAD | indicative | 0.286 |
-| CHF | CAD | indicative | 1.718 |
-| CNY | CAD | indicative | 0.2132 |
-| EUR | CAD | indicative | 1.5978 |
-| GBP | CAD | indicative | 1.8879 |
-| HKD | CAD | indicative | 0.1818 |
-| IDR | CAD | indicative | 0.00008 |
-| INR | CAD | indicative | 0.01475 |
-| JPY | CAD | indicative | 0.00902 |
-| KRW | CAD | indicative | 0.001063 |
-| MXN | CAD | indicative | 0.07767 |
-| MYR | CAD | indicative | 0.3493 |
-| NOK | CAD | indicative | 0.1491 |
-| NZD | CAD | indicative | 0.8005 |
-| PEN | CAD | indicative | 0.4143 |
+| AUD | CAD | indicative | 0.9928 |
+| BRL | CAD | indicative | 0.2837 |
+| CHF | CAD | indicative | 1.7079 |
+| CNY | CAD | indicative | 0.2125 |
+| EUR | CAD | indicative | 1.5919 |
+| GBP | CAD | indicative | 1.8841 |
+| HKD | CAD | indicative | 0.1812 |
+| IDR | CAD | indicative | 0.000079 |
+| INR | CAD | indicative | 0.01493 |
+| JPY | CAD | indicative | 0.00898 |
+| KRW | CAD | indicative | 0.00106 |
+| MXN | CAD | indicative | 0.07746 |
+| MYR | CAD | indicative | 0.3481 |
+| NOK | CAD | indicative | 0.1493 |
+| NZD | CAD | indicative | 0.7983 |
+| PEN | CAD | indicative | 0.4138 |
 | PLN | CAD | indicative | 0.3641 |
-| SEK | CAD | indicative | 0.1427 |
-| SGD | CAD | indicative | 1.114 |
-| THB | CAD | indicative | 0.04255 |
-| TRY | CAD | indicative | 0.0289 |
-| TWD | CAD | indicative | 0.04467 |
-| USD | CAD | indicative | 1.4271 |
-| ZAR | CAD | indicative | 0.08634 |
+| SEK | CAD | indicative | 0.1426 |
+| SGD | CAD | indicative | 1.1111 |
+| THB | CAD | indicative | 0.04236 |
+| TRY | CAD | indicative | 0.0288 |
+| TWD | CAD | indicative | 0.0442 |
+| USD | CAD | indicative | 1.4222 |
+| ZAR | CAD | indicative | 0.0862 |
 
 Source: [Official rates published by BOC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/boc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
