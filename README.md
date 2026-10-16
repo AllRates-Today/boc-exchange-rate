@@ -42,34 +42,34 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-15** by Bank of Canada — 24 rates. Updated 2026-10-15.
+Published **2026-10-16** by Bank of Canada — 24 rates. Updated 2026-10-16.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9813 |
-| BRL | CAD | indicative | 0.2805 |
-| CHF | CAD | indicative | 1.7133 |
-| CNY | CAD | indicative | 0.2122 |
-| EUR | CAD | indicative | 1.5912 |
-| GBP | CAD | indicative | 1.8824 |
-| HKD | CAD | indicative | 0.1809 |
+| AUD | CAD | indicative | 0.9837 |
+| BRL | CAD | indicative | 0.2787 |
+| CHF | CAD | indicative | 1.7176 |
+| CNY | CAD | indicative | 0.2117 |
+| EUR | CAD | indicative | 1.5908 |
+| GBP | CAD | indicative | 1.8871 |
+| HKD | CAD | indicative | 0.1804 |
 | IDR | CAD | indicative | 0.000079 |
-| INR | CAD | indicative | 0.01493 |
-| JPY | CAD | indicative | 0.00898 |
-| KRW | CAD | indicative | 0.001056 |
-| MXN | CAD | indicative | 0.07695 |
-| MYR | CAD | indicative | 0.3477 |
-| NOK | CAD | indicative | 0.1497 |
-| NZD | CAD | indicative | 0.7962 |
-| PEN | CAD | indicative | 0.4137 |
-| PLN | CAD | indicative | 0.3643 |
-| SEK | CAD | indicative | 0.1425 |
-| SGD | CAD | indicative | 1.1069 |
-| THB | CAD | indicative | 0.04235 |
-| TRY | CAD | indicative | 0.0287 |
-| TWD | CAD | indicative | 0.04382 |
-| USD | CAD | indicative | 1.4196 |
-| ZAR | CAD | indicative | 0.08589 |
+| INR | CAD | indicative | 0.0149 |
+| JPY | CAD | indicative | 0.00896 |
+| KRW | CAD | indicative | 0.001061 |
+| MXN | CAD | indicative | 0.07669 |
+| MYR | CAD | indicative | 0.3468 |
+| NOK | CAD | indicative | 0.1499 |
+| NZD | CAD | indicative | 0.8003 |
+| PEN | CAD | indicative | 0.4123 |
+| PLN | CAD | indicative | 0.3641 |
+| SEK | CAD | indicative | 0.1428 |
+| SGD | CAD | indicative | 1.106 |
+| THB | CAD | indicative | 0.04233 |
+| TRY | CAD | indicative | 0.0286 |
+| TWD | CAD | indicative | 0.04365 |
+| USD | CAD | indicative | 1.4154 |
+| ZAR | CAD | indicative | 0.08598 |
 
 Source: [Official rates published by BOC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/boc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -263,7 +263,7 @@ curl "https://allratestoday.com/api/v1/central-bank/boc/latest?format=xml&api_ke
 - MCP server: `npx -y @allratestoday/central-bank-mcp` (stdio) or the hosted endpoint `https://allratestoday.com/api/mcp` — tools for official rates, history, cross-bank comparison and publication calendars
 - Already using the general SDK or MCP server? Since 2026-10-01 [`@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk) 1.4+ has `officialRates('boc')` and [`@allratestoday/mcp-server`](https://www.npmjs.com/package/@allratestoday/mcp-server) 0.6+ has a `get_official_rates` tool — both return this source's latest table with no key, so you can add it without a second dependency
 - Claude Code plugin (no key): `/plugin marketplace add AllRates-Today/claude-code-plugin` then `/plugin install allratestoday@allratestoday` — bundles both MCP servers plus an `/official-rate boc ...` command
-- Need dated tables or history for an evaluation? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days; the MCP servers expose it as `request_trial_key`
+- Evaluating? Agents can self-issue a trial key with no signup: `POST https://allratestoday.com/api/agent/keys` (send `Content-Type: application/json`) returns a 100-call key valid 7 days that covers the free-plan methods (latest table, pairs); dated tables and history need a [paid plan](https://allratestoday.com/pricing/). The MCP servers expose it as `request_trial_key`
 - Machine-readable site guide: [llms.txt](https://allratestoday.com/llms.txt) · [for-ai-agents](https://allratestoday.com/for-ai-agents/)
 
 ## ⚖️ Published vs derived rates
