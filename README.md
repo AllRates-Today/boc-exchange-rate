@@ -32,34 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-12 by Bank of Canada — 24 rates. Updated 2026-11-12.</summary>
+<summary>Table as text: published 2026-11-13 by Bank of Canada — 24 rates. Updated 2026-11-13.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9709 |
-| BRL | CAD | indicative | 0.2531 |
-| CHF | CAD | indicative | 1.7079 |
+| AUD | CAD | indicative | 0.9668 |
+| BRL | CAD | indicative | 0.2524 |
+| CHF | CAD | indicative | 1.7 |
 | CNY | CAD | indicative | 0.2137 |
-| EUR | CAD | indicative | 1.5771 |
-| GBP | CAD | indicative | 1.8874 |
+| EUR | CAD | indicative | 1.5734 |
+| GBP | CAD | indicative | 1.8848 |
 | HKD | CAD | indicative | 0.1817 |
 | IDR | CAD | indicative | 0.000078 |
-| INR | CAD | indicative | 0.01516 |
+| INR | CAD | indicative | 0.01513 |
 | JPY | CAD | indicative | 0.00892 |
-| KRW | CAD | indicative | 0.001068 |
-| MXN | CAD | indicative | 0.07653 |
-| MYR | CAD | indicative | 0.3495 |
+| KRW | CAD | indicative | 0.001067 |
+| MXN | CAD | indicative | 0.07686 |
+| MYR | CAD | indicative | 0.3488 |
 | NOK | CAD | indicative | 0.1491 |
-| NZD | CAD | indicative | 0.791 |
-| PEN | CAD | indicative | 0.4186 |
-| PLN | CAD | indicative | 0.358 |
-| SEK | CAD | indicative | 0.1424 |
-| SGD | CAD | indicative | 1.1078 |
+| NZD | CAD | indicative | 0.7883 |
+| PEN | CAD | indicative | 0.4191 |
+| PLN | CAD | indicative | 0.3571 |
+| SEK | CAD | indicative | 0.1416 |
+| SGD | CAD | indicative | 1.1069 |
 | THB | CAD | indicative | 0.04207 |
-| TRY | CAD | indicative | 0.0284 |
-| TWD | CAD | indicative | 0.04321 |
-| USD | CAD | indicative | 1.4255 |
-| ZAR | CAD | indicative | 0.08506 |
+| TRY | CAD | indicative | 0.0283 |
+| TWD | CAD | indicative | 0.04335 |
+| USD | CAD | indicative | 1.4257 |
+| ZAR | CAD | indicative | 0.08418 |
 
 </details>
 
