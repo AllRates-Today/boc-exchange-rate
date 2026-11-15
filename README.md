@@ -31,39 +31,7 @@ Get a free API key at [allratestoday.com/register](https://allratestoday.com/reg
 The image is rendered live from the keyless endpoint, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-<details>
-<summary>Table as text: published 2026-11-13 by Bank of Canada — 24 rates. Updated 2026-11-13.</summary>
-
-| Base | Quote | Type | Rate |
-| --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9668 |
-| BRL | CAD | indicative | 0.2524 |
-| CHF | CAD | indicative | 1.7 |
-| CNY | CAD | indicative | 0.2137 |
-| EUR | CAD | indicative | 1.5734 |
-| GBP | CAD | indicative | 1.8848 |
-| HKD | CAD | indicative | 0.1817 |
-| IDR | CAD | indicative | 0.000078 |
-| INR | CAD | indicative | 0.01513 |
-| JPY | CAD | indicative | 0.00892 |
-| KRW | CAD | indicative | 0.001067 |
-| MXN | CAD | indicative | 0.07686 |
-| MYR | CAD | indicative | 0.3488 |
-| NOK | CAD | indicative | 0.1491 |
-| NZD | CAD | indicative | 0.7883 |
-| PEN | CAD | indicative | 0.4191 |
-| PLN | CAD | indicative | 0.3571 |
-| SEK | CAD | indicative | 0.1416 |
-| SGD | CAD | indicative | 1.1069 |
-| THB | CAD | indicative | 0.04207 |
-| TRY | CAD | indicative | 0.0283 |
-| TWD | CAD | indicative | 0.04335 |
-| USD | CAD | indicative | 1.4257 |
-| ZAR | CAD | indicative | 0.08418 |
-
-</details>
-
-Source: [Official rates published by BOC, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/boc/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+_The table is filled in by the daily workflow._
 <!-- daily-table:end -->
 
 ## 📦 Installation
