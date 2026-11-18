@@ -32,34 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-16 by Bank of Canada — 24 rates. Updated 2026-11-17.</summary>
+<summary>Table as text: published 2026-11-17 by Bank of Canada — 24 rates. Updated 2026-11-18.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9645 |
-| BRL | CAD | indicative | 0.2481 |
-| CHF | CAD | indicative | 1.7031 |
-| CNY | CAD | indicative | 0.2145 |
-| EUR | CAD | indicative | 1.5736 |
-| GBP | CAD | indicative | 1.886 |
-| HKD | CAD | indicative | 0.1822 |
+| AUD | CAD | indicative | 0.9628 |
+| BRL | CAD | indicative | 0.2471 |
+| CHF | CAD | indicative | 1.7019 |
+| CNY | CAD | indicative | 0.2144 |
+| EUR | CAD | indicative | 1.5726 |
+| GBP | CAD | indicative | 1.8876 |
+| HKD | CAD | indicative | 0.1821 |
 | IDR | CAD | indicative | 0.000078 |
-| INR | CAD | indicative | 0.01522 |
-| JPY | CAD | indicative | 0.00896 |
+| INR | CAD | indicative | 0.01529 |
+| JPY | CAD | indicative | 0.00897 |
 | KRW | CAD | indicative | 0.00107 |
-| MXN | CAD | indicative | 0.07695 |
-| MYR | CAD | indicative | 0.3492 |
-| NOK | CAD | indicative | 0.1484 |
-| NZD | CAD | indicative | 0.7873 |
-| PEN | CAD | indicative | 0.419 |
-| PLN | CAD | indicative | 0.3575 |
-| SEK | CAD | indicative | 0.1417 |
-| SGD | CAD | indicative | 1.1093 |
-| THB | CAD | indicative | 0.0422 |
-| TRY | CAD | indicative | 0.0284 |
+| MXN | CAD | indicative | 0.07744 |
+| MYR | CAD | indicative | 0.3491 |
+| NOK | CAD | indicative | 0.1486 |
+| NZD | CAD | indicative | 0.7858 |
+| PEN | CAD | indicative | 0.4188 |
+| PLN | CAD | indicative | 0.3573 |
+| SEK | CAD | indicative | 0.1413 |
+| SGD | CAD | indicative | 1.1092 |
+| THB | CAD | indicative | 0.04227 |
+| TRY | CAD | indicative | 0.0283 |
 | TWD | CAD | indicative | 0.04339 |
-| USD | CAD | indicative | 1.4298 |
-| ZAR | CAD | indicative | 0.08423 |
+| USD | CAD | indicative | 1.4291 |
+| ZAR | CAD | indicative | 0.08438 |
 
 </details>
 
