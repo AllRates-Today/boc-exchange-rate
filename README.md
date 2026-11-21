@@ -32,34 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-19 by Bank of Canada — 24 rates. Updated 2026-11-20.</summary>
+<summary>Table as text: published 2026-11-20 by Bank of Canada — 24 rates. Updated 2026-11-21.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9568 |
-| BRL | CAD | indicative | 0.2423 |
-| CHF | CAD | indicative | 1.6978 |
-| CNY | CAD | indicative | 0.2148 |
-| EUR | CAD | indicative | 1.5726 |
-| GBP | CAD | indicative | 1.8783 |
-| HKD | CAD | indicative | 0.1825 |
+| AUD | CAD | indicative | 0.9514 |
+| BRL | CAD | indicative | 0.2409 |
+| CHF | CAD | indicative | 1.7067 |
+| CNY | CAD | indicative | 0.2145 |
+| EUR | CAD | indicative | 1.5727 |
+| GBP | CAD | indicative | 1.8769 |
+| HKD | CAD | indicative | 0.1828 |
 | IDR | CAD | indicative | 0.000078 |
-| INR | CAD | indicative | 0.01535 |
-| JPY | CAD | indicative | 0.00896 |
-| KRW | CAD | indicative | 0.001075 |
-| MXN | CAD | indicative | 0.07531 |
-| MYR | CAD | indicative | 0.3481 |
-| NOK | CAD | indicative | 0.147 |
-| NZD | CAD | indicative | 0.7882 |
-| PEN | CAD | indicative | 0.416 |
-| PLN | CAD | indicative | 0.3548 |
-| SEK | CAD | indicative | 0.1407 |
-| SGD | CAD | indicative | 1.109 |
-| THB | CAD | indicative | 0.04219 |
-| TRY | CAD | indicative | 0.0284 |
-| TWD | CAD | indicative | 0.04339 |
-| USD | CAD | indicative | 1.4317 |
-| ZAR | CAD | indicative | 0.08219 |
+| INR | CAD | indicative | 0.01546 |
+| JPY | CAD | indicative | 0.00903 |
+| KRW | CAD | indicative | 0.001067 |
+| MXN | CAD | indicative | 0.07514 |
+| MYR | CAD | indicative | 0.3483 |
+| NOK | CAD | indicative | 0.1467 |
+| NZD | CAD | indicative | 0.7859 |
+| PEN | CAD | indicative | 0.4147 |
+| PLN | CAD | indicative | 0.3529 |
+| SEK | CAD | indicative | 0.1402 |
+| SGD | CAD | indicative | 1.111 |
+| THB | CAD | indicative | 0.04221 |
+| TRY | CAD | indicative | 0.0283 |
+| TWD | CAD | indicative | 0.04347 |
+| USD | CAD | indicative | 1.4325 |
+| ZAR | CAD | indicative | 0.08187 |
 
 </details>
 
