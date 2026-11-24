@@ -32,34 +32,34 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-20 by Bank of Canada — 24 rates. Updated 2026-11-23.</summary>
+<summary>Table as text: published 2026-11-23 by Bank of Canada — 24 rates. Updated 2026-11-24.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | CAD | indicative | 0.9514 |
-| BRL | CAD | indicative | 0.2409 |
-| CHF | CAD | indicative | 1.7067 |
-| CNY | CAD | indicative | 0.2145 |
-| EUR | CAD | indicative | 1.5727 |
-| GBP | CAD | indicative | 1.8769 |
-| HKD | CAD | indicative | 0.1828 |
-| IDR | CAD | indicative | 0.000078 |
+| AUD | CAD | indicative | 0.9521 |
+| BRL | CAD | indicative | 0.241 |
+| CHF | CAD | indicative | 1.7063 |
+| CNY | CAD | indicative | 0.2156 |
+| EUR | CAD | indicative | 1.5672 |
+| GBP | CAD | indicative | 1.8734 |
+| HKD | CAD | indicative | 0.1832 |
+| IDR | CAD | indicative | 0.000079 |
 | INR | CAD | indicative | 0.01546 |
 | JPY | CAD | indicative | 0.00903 |
-| KRW | CAD | indicative | 0.001067 |
-| MXN | CAD | indicative | 0.07514 |
-| MYR | CAD | indicative | 0.3483 |
-| NOK | CAD | indicative | 0.1467 |
-| NZD | CAD | indicative | 0.7859 |
-| PEN | CAD | indicative | 0.4147 |
-| PLN | CAD | indicative | 0.3529 |
-| SEK | CAD | indicative | 0.1402 |
-| SGD | CAD | indicative | 1.111 |
-| THB | CAD | indicative | 0.04221 |
-| TRY | CAD | indicative | 0.0283 |
-| TWD | CAD | indicative | 0.04347 |
-| USD | CAD | indicative | 1.4325 |
-| ZAR | CAD | indicative | 0.08187 |
+| KRW | CAD | indicative | 0.00107 |
+| MXN | CAD | indicative | 0.07501 |
+| MYR | CAD | indicative | 0.3485 |
+| NOK | CAD | indicative | 0.146 |
+| NZD | CAD | indicative | 0.7824 |
+| PEN | CAD | indicative | 0.4161 |
+| PLN | CAD | indicative | 0.3524 |
+| SEK | CAD | indicative | 0.1398 |
+| SGD | CAD | indicative | 1.1124 |
+| THB | CAD | indicative | 0.04229 |
+| TRY | CAD | indicative | 0.0284 |
+| TWD | CAD | indicative | 0.04376 |
+| USD | CAD | indicative | 1.4369 |
+| ZAR | CAD | indicative | 0.08253 |
 
 </details>
 
